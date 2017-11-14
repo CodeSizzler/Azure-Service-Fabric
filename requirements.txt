@@ -1,0 +1,5 @@
+
+    Microsoft Azure Subscription: http://azure.microsoft.com/en-us/pricing/free-trial/
+    Visual Studio 2017 Update 2: https://www.visualstudio.com/vs/
+    Azure Service Fabric SDK 2.6.220: https://www.microsoft.com/web/downloads/platform.aspx
+    DotNet Core 1.1.2 SDK: http://bit.do/dotnetsdk
