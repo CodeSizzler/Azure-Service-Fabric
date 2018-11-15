@@ -1,0 +1,31 @@
+Adding CGP Key:
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+
+Adding Docker Repository to APT Source:
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+
+
+Updating Pacjkages:
+sudo apt-get update
+
+
+Installing Docker
+sudo apt-get install -y docker-ce
+
+
+Docker Login:
+
+sudo docker login demoo.azurecr.io -u demoo -p 0je/18NMFtXqvGVlvVzcGp2G602W0Mlo
+
+
+Pulling an Image:
+sudo docker pull microsoft/aci-helloworld
+
+
+Adding Tag:
+sudo docker tag microsoft/aci-helloworld demoo.azurecr.io/aci-helloworld:v1
+
+
+Pushing Image:
+sudo docker push demoo.azurecr.io/aci-helloworld:v1
